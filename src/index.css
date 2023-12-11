@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    font-family: Poppins , sans-serif;
+    margin: 0;
+    /* background-color: #282a3b; */
+}
+.hero > h2, .hero > p{
+    padding: 0 20px;
+}
+.hero > p{
+    margin-top: 0;
+}
+.hero-img{
+    width: 100vw;
+    /* height: 50vh; */
+    padding:0 10px;
+}
+.main{
+    padding: 10px;
+}
+.main ul li::marker{
+    list-style-type: circle;
+    color: black;
+
+}
+nav{
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(100deg,purple, rgb(155, 89, 168));
+    color: white;
+    padding: 10px;
+}
+.nav-img{
+    height: 70px;
+}
+.card-list{
+    display: flex;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    padding: 10px;
+    gap: 20px;
+    text-overflow: ellipsis;
+}
+.card-container{
+    padding:0 20px;
+    background-color: antiquewhite;
+    width: fit-content;
+    border-radius: 10px;
+    margin: 15px 0;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+}
+.card-container > img{
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px 0;
+}
+.card-container > .ratings{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px;
+}
+.info-group{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.card-tag{
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px;
+    font-weight: 700;
+}
+.journal{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 15px;
+    /* justify-content: center; */
+}
+.journal > img{
+    border-radius: 10px;
+}
+.journal-head{
+    text-align: center;
+    background-color: rgb(202, 57, 21);
+    color: white;
+    padding: 10px;
+}
+.location > span{
+    padding: 5px 10px;
+}
+.location > .loc{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.describe{
+    text-transform: capitalize;
+}
+.date{
+    font-size: 16px;
+}
+.meme-input> .input >input{
+    padding: 10px;
+    margin: 5px;
+    width: 50%;
+    outline: none;
+}
+.input{
+    display: flex;
+}
+.meme-input > button{
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+.boxes{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
